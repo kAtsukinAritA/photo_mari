@@ -10,7 +10,7 @@ window.addEventListener('load', function(){
 
 // 「消しゴム」ボタンを押したらクリア
 document.querySelector("#btn-eraser").addEventListener("click", ()=>{
- eraseCanvas("#concat", ["#image1"]);
+ eraseCanvas("#concat");
 });
 
 // 「+」ボタンを押したら合成
@@ -135,7 +135,7 @@ document.querySelector("#btn-eraser").addEventListener("click", ()=>{
    */
   function eraseCanvas(target){
     const Sya = new Image();
-    Sya.src = "detaUrl";
+    Sya.src = "img";
     Sya.onload = () =>{
       const canvas = document.querySelector("#concat");
       const ctx = canvas.getContext("2d");
