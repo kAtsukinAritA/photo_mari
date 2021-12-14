@@ -10,7 +10,7 @@ window.addEventListener('load', function(){
 
 // 「消しゴム」ボタンを押したらクリア
 document.querySelector("#btn-eraser").addEventListener("click", ()=>{
- eraseCanvas("#concat");
+ eraseCanvas("#concat", ["#image1"]);
 });
 
 // 「+」ボタンを押したら合成
