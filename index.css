@@ -1,0 +1,76 @@
+body{
+background-color:#dddddd;
+  text-align: center;
+width: 100%;
+}
+
+
+
+
+#concat{
+  width: 600px;
+  height: 400px;
+  border: solid 1px gray;
+}
+canvas{
+/*   border: 1px solid gray; */
+
+}
+#btn-concat{
+  width: 200px;
+  height: 150px;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+button1{
+  width: 100px;
+  height: 100px;
+}
+#mainvisual{
+  width: 100%;
+  text-align: center;
+}
+#chara{
+  width: 200px;
+  height: 50px;
+}
+button2{
+  width: 50px;
+  height: 40px;
+}
+
+#contents{
+  width: 100%;
+  text-align: center;
+}
+#eraser{
+/*   text-align: right; */
+  margin-right: 10px;
+}
+.flex-container {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  justify-content:space-around;
+  border: 3px;
+  border-color: #b7ffff;
+  background-color: #E6BECD;
+
+  text-align: center;
+}
+h1{
+	padding-top: 3rem;
+	padding-bottom: 3.5rem;
+}
